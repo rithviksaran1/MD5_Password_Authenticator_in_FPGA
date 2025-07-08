@@ -1,3 +1,4 @@
+//The MD5 hashing algorithm 
 `timescale 1ns / 1ps
 
 module md5(clk,reset,load_i,ready_o,newtext_i,data_i,data_o);	
