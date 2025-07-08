@@ -1,3 +1,4 @@
+//Testbench for Verilog simulation (Not to be used with FPGA implementation)
 `timescale 1ns / 1ns
 module tbtb;
 
