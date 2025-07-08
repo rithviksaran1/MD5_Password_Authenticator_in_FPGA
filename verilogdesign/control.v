@@ -1,3 +1,4 @@
+//The top-level module of the MD5 project
 `timescale 1ns / 1ps
 
 module control (
