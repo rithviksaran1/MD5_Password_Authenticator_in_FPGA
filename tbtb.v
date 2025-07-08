@@ -29,19 +29,19 @@ module tbtb;
         reset = 0;
         s_axis_tdata = 32'd0;
 
-        // Apply reset
-        //#20;
-        //reset = 1;
+        //Apply reset
+        #20;
+        reset = 1;
 
         
-        //s_axis_tdata = 4'b1010; // ASCII string packed into 56-bit
+        s_axis_tdata = 4'b1010; // ASCII string packed into 56-bit
         
         
         //Wait for done signal
-        //wait (s_axis_ready == 1);
-        //#10;
+        wait (s_axis_ready == 1);
+        #10;
         
-        //$finish;
+        $finish;
     end
 
 endmodule
